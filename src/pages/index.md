@@ -1,70 +1,43 @@
 ---
 templateKey: index-page
-title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
-heading: Great coffee with a conscience
-subheading: Support sustainable farming while enjoying a cup
+title: Wandering Leaf Studios
+image: /img/patricia-escher-leaf-water-unsplash.jpg
+heading: Supercharge your existing team
+subheading: Web development resources & training for agencies and marketing teams.
 mainpitch:
-  title: Why Kaldi
+  title: Why Wandering Leaf Studios
   description: >
-    Kaldi is the coffee store for everyone who believes that great coffee
-    shouldn't just taste good, it should do good too. We source all of our beans
-    directly from small scale sustainable farmers and make sure part of the
-    profits are reinvested in their communities.
+    Wandering Leaf Studios provides services, tools, and training for teams and solopreneurs who need to augment their existing team.
 description: >-
-  Kaldi is the ultimate spot for coffee lovers who want to learn about their
-  java’s origin and support the farmers that grew it. We take coffee production,
-  roasting and brewing seriously and we’re glad to pass that knowledge to
-  anyone.
+  Whether it's developing a strategy or implementating a new site or features, Wandering Leaf Studios can help with providing the expertise and resources you need.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/devices.png
       text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
-    - image: /img/coffee-gear.png
+        Web Development consectetur adipiscing elit. Morbi non dolor lectus. Phasellus viverra dui augue, sit amet feugiat odio aliquam at. Donec aliquet tortor odio, quis cursus diam dapibus ac.
+    - image: /img/chat-bubbles.png
       text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
-    - image: /img/tutorials.png
+        Tech Consultation tincidunt dui sit amet molestie egestas. Proin vitae ipsum mollis, pellentesque sem in, commodo nulla. Aenean viverra purus at lectus imperdiet, et bibendum ipsum.
+    - image: /img/chalkboard.png
       text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
-    - image: /img/meeting-space.png
+        Training elementum sagittis tortor, ut semper dui cursus rutrum. Quisque vulputate felis a neque interdum auctor ut nec lectus. Nam accumsan, erat porta molestie.
+    - image: /img/browser-code.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
+        Custom Tools & Apps viverra felis mauris, sed sodales tellus suscipit nec. Vestibulum placerat velit a enim mollis, eu posuere elit facilisis. Nulla vehicula arcu at aliquet tristique.
   heading: What we offer
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    Whether it's developing a strategy or implementating a new site or features, Wandering Leaf Studios can help with providing the expertise and resources you need.
 main:
-  heading: Great coffee with no compromises
+  heading: You want to build things so that you can release your ideas out into the world.
   description: >
-    We hold our coffee to the highest standards from the shrub to the cup.
-    That’s why we’re meticulous and transparent about each step of the coffee’s
-    journey. We personally visit each farm to make sure the conditions are
-    optimal for the plants, farmers and the local environment.
+    Wandering Leaf Studios provides courses, services, and tools for entrepreneurs and startups which don't require a full-time web development team or agency.
   image1:
-    alt: A close-up of a paper filter filled with ground coffee
-    image: /img/products-grid3.jpg
+    alt: Microservice architecture
+    image:
   image2:
-    alt: A green cup of a coffee on a wooden table
-    image: /img/products-grid2.jpg
+    alt: Web application development
+    image:
   image3:
-    alt: Coffee beans
-    image: /img/products-grid1.jpg
+    alt: Feature implementation
+    image:
 ---
