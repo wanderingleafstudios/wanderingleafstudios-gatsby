@@ -1,5 +1,6 @@
-import React from 'react'
-import Layout from '../../components/Layout'
+import React from 'react';
+import { Link } from 'gatsby';
+import Layout from '../../components/Layout';
 
 export default () => (
   <Layout>
@@ -7,9 +8,12 @@ export default () => (
       <div className="container">
         <div className="content">
           <h1>Thank you!</h1>
-          <p>This is a custom thank you page for form submissions</p>
+          <p>We will get back to you within 2 business days.</p>
+          <p>
+            <Link to="/">Home</Link>
+          </p>
         </div>
       </div>
     </section>
   </Layout>
-)
+);
