@@ -4,22 +4,22 @@ path: /about
 title: About
 ---
 
-### Shade-grown coffee
+Wandering Leaf Studios is a software development agency which specializes in responsive, multi-device web application development.
 
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
+## Frequently Asked Questions
 
-### Single origin
+### What is your rate?
 
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+We don't have this public for a variety of reasons. Please [contact us](/contact) to schedule a chat on how we may work together.
 
-### Sustainable farming
+### What is your evaluation cost?
 
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+We charge a one-time, non-refundable evaluation fee of \$500 USD. This covers the time required to discuss the project, review the existing codebase, and architect a project proposal / statement of work.
 
-### Direct sourcing
+### What is your response time commitment?
 
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+If you are a client, we are committed to getting back to you within 24 hours. If you are not a client, we still strive to respond within 24 hours, but it may take 48-36 hours.
 
-### Reinvest profits
+### Help! I need a rush job! Can you finish projects within 4-6 weeks?!
 
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+Unfortunately, no. We typically have other project deadlines, so don't have the resources to handle rush projects. However, it doesn't hurt to [drop us a line](/contact)!
