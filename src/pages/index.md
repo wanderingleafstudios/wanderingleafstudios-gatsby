@@ -1,17 +1,14 @@
 ---
 templateKey: index-page
 image: /img/patricia-escher-leaf-water-unsplash.jpg
-heading: Stop your tech headache!
-subheading: Productivity tools to help you get back to your passion.
+heading: Are you tech stuck?
+subheading: We build tools to help solopreneurs get back to their passion.
 mainpitch:
+  title: Why Wandering Leaf Studios?
   description: >
-    You need more time. Tech stuff stresses you out. You need someone to take
-    care of it so you don’t have to. That’s where Wandering Leaf Studios comes
-    in.
-  title: Why Wandering Leaf Studios
+    You need more time. Tech stuff stresses you out. You need someone to take care of it so you don’t have to. That's where we come in.
 description: >-
-  Wandering Leaf Studios provides courses, services, and tools for entrepreneurs
-  and startups who don't need a full-time web development team or agency.
+  Wandering Leaf Studios provides courses, services, and tools for entrepreneurs and startups who don't need a full-time web development team or agency.
 intro:
   blurbs:
     - image: /img/devices.png

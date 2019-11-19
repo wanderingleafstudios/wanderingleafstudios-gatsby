@@ -3,17 +3,15 @@ import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
+// import Features from '../components/Features'
+// import BlogRoll from '../components/BlogRoll'
 
 export const IndexPageTemplate = ({
   image,
-  title,
   heading,
   subheading,
   mainpitch,
-  description,
-  intro,
+  description
 }) => (
   <div>
     <div
@@ -34,6 +32,7 @@ export const IndexPageTemplate = ({
           justifyContent: 'space-around',
           alignItems: 'left',
           flexDirection: 'column',
+          padding: '0 2rem'
         }}
       >
         <h1
@@ -47,7 +46,7 @@ export const IndexPageTemplate = ({
             padding: '0.25em',
           }}
         >
-          {title}
+          {heading}
         </h1>
         <h3
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
@@ -80,21 +79,25 @@ export const IndexPageTemplate = ({
                 </div>
                 <div className="columns">
                   <div className="column is-12">
-                    <h3 className="has-text-weight-semibold is-size-2">
-                      {heading}
-                    </h3>
-                    <p>{description}</p>
+                    <p className="">{description}</p>
                   </div>
                 </div>
-                <Features gridItems={intro.blurbs} />
                 <div className="columns">
+                  <div className="column is-12">
+                    <Link className="button is-green is-large" to="/contact">
+                      Contact Us
+                    </Link>
+                  </div>
+                </div>
+                {/* <Features gridItems={intro.blurbs} /> */}
+                {/* <div className="columns">
                   <div className="column is-12 has-text-centered">
                     <Link className="btn" to="/services">
                       See all services
                     </Link>
                   </div>
-                </div>
-                <div className="column is-12">
+                </div> */}
+                {/* <div className="column is-12">
                   <h3 className="has-text-weight-semibold is-size-2">
                     Latest stories
                   </h3>
@@ -104,7 +107,7 @@ export const IndexPageTemplate = ({
                       Read more
                     </Link>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -133,7 +136,6 @@ const IndexPage = ({ data }) => {
     <Layout>
       <IndexPageTemplate
         image={frontmatter.image}
-        title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
         mainpitch={frontmatter.mainpitch}
