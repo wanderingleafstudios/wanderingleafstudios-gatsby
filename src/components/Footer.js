@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 
 import logo from '../img/wandering_leaf_studios_white_logo_transparent_background.svg';
 
