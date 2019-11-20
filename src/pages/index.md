@@ -2,7 +2,7 @@
 templateKey: index-page
 image: /img/patricia-escher-leaf-water-unsplash.jpg
 heading: Are you tech stuck?
-subheading: We build tools to help solopreneurs get back to their passion.
+subheading: Productivity tools to help you get back to your passion.
 mainpitch:
   title: Why Wandering Leaf Studios?
   description: >
