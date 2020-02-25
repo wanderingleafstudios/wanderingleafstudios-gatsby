@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Wandering Leaf Studios GatsbyJS website',
-    description: 'Tools for technically-minded entrepreneurs and startups.',
+    title: 'Wandering Leaf Studios',
+    description: 'Analytics for data-driven businesses.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -71,6 +71,18 @@ module.exports = {
         purgeOnly: ['/all.sass'], // applies purging only on the bulma css file
       },
     }, // must be after other CSS plugins
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-159058485-1",
+        head: true,
+        anonymize: true,
+        respectDNT: true,
+        exclude: [],
+        pageTransitionDelay: 0,
+        cookieDomain: "wanderingleafstudios.com",
+      },
+    },
     'gatsby-plugin-netlify', // make sure to keep it last in the array
   ],
 };
