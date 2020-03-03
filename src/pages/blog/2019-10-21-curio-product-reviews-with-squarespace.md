@@ -10,7 +10,6 @@ tags:
   - case study
   - curio
 ---
-
 ![CURIO reviews admin UI on desktop](/img/CURIO-reviews-admin-ui-desktop-screenshot.png)
 
 ![CURIO reviews admin UI edit dialog on desktop](/img/CURIO-reviews-admin-ui-edit-desktop-screenshot.png)
