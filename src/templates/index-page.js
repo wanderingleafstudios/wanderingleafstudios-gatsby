@@ -1,9 +1,9 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { Link, graphql } from "gatsby"
+import React from 'react'
+import PropTypes from 'prop-types'
+import { Link, graphql } from 'gatsby'
 
-import Layout from "../components/Layout"
-import ServiceGrid from "../components/Services"
+import Layout from '../components/Layout'
+import ServiceGrid from '../components/Services'
 
 export const IndexPageTemplate = ({
   image,
@@ -18,31 +18,31 @@ export const IndexPageTemplate = ({
       className="full-width-image margin-top-0"
       style={{
         backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
+          image.childImageSharp ? image.childImageSharp.fluid.src : image
         })`,
         backgroundPosition: `top center`,
       }}
     >
       <div
         style={{
-          display: "flex",
-          height: "150px",
-          lineHeight: "1",
-          justifyContent: "space-around",
-          alignItems: "left",
-          flexDirection: "column",
-          padding: "0 2rem",
+          display: 'flex',
+          height: '150px',
+          lineHeight: '1',
+          justifyContent: 'space-around',
+          alignItems: 'left',
+          flexDirection: 'column',
+          padding: '0 2rem',
         }}
       >
         <h1
           className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
           style={{
             boxShadow:
-              "rgb(47, 133, 90) 0.5rem 0px 0px, rgb(47, 133, 90) -0.5rem 0px 0px",
-            backgroundColor: "rgb(47, 133, 90)",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em",
+              'rgb(47, 133, 90) 0.5rem 0px 0px, rgb(47, 133, 90) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(47, 133, 90)',
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
           }}
         >
           {heading}
@@ -51,11 +51,11 @@ export const IndexPageTemplate = ({
           className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
           style={{
             boxShadow:
-              "rgb(47, 133, 90) 0.5rem 0px 0px, rgb(47, 133, 90) -0.5rem 0px 0px",
-            backgroundColor: "rgb(47, 133, 90)",
-            color: "white",
-            lineHeight: "1",
-            padding: "0.25em",
+              'rgb(47, 133, 90) 0.5rem 0px 0px, rgb(47, 133, 90) -0.5rem 0px 0px',
+            backgroundColor: 'rgb(47, 133, 90)',
+            color: 'white',
+            lineHeight: '1',
+            padding: '0.25em',
           }}
         >
           {subheading}
