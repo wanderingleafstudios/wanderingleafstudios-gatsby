@@ -8,7 +8,11 @@ exports.createPages = ({ actions, graphql }) => {
 
   return graphql(`
     {
-      allMarkdownRemark(limit: 1000) {
+      allMarkdownRemark(
+        sort: { fields: [frontmatter___date], order: DESC }
+        limit: 1000
+        filter: { frontmatter: { published: { eq: true } } }
+      ) {
         edges {
           node {
             id
@@ -32,7 +36,7 @@ exports.createPages = ({ actions, graphql }) => {
     const posts = result.data.allMarkdownRemark.edges
 
     posts.forEach(edge => {
-      const id = edge.node.id
+      const { id } = edge.node
       createPage({
         path: edge.node.fields.slug,
         tags: edge.node.frontmatter.tags,
