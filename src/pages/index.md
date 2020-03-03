@@ -15,28 +15,19 @@ description: >-
 main:
   heading: What we offer
   description: >
-    Whether it's developing a strategy or implementating a new site or features,
-    Wandering Leaf Studios can help with providing the expertise and resources
-    you need.
+    Whether it's developing a data-collecting strategy, building cloud-based ETL pipelines, or machine-learning data analysis, Wandering Leaf Studios can help with providing the expertise and resources you need.
   services:
-    - image: /img/chat-bubbles.png
-      heading: Strategy
+    - image: /img/folder-download.png
+      heading: Data Collection
       text: >
-        Starting out can be overwhelming. Or perhaps you’ve started and not sure
-        how to proceed with your website our new app. Let’s take time to map out
-        your journey based on your goals so you don’t waste time and money going
-        down the wrong path.
-    - image: /img/devices.png
-      heading: Building
+        You need data in order to begin making critical business decisions. Let us help you collect the correct data for your business.
+    - image: /img/database.png
+      heading: Data and ETL Pipelines
       text: >
-        Whether it's a new idea or a third-party implementation, new features
-        tend to seem easy but cause headaches in the long-run. We’ll help you
-        analyze and implement new features with no trouble and minimal trauma.
-    - image: /img/chalkboard.png
-      heading: Training
+        We can help you connect your data lakes to your data warehouses and into data analytics dashboards for analysis. Whether it's batch or streaming data, we can set up extract, transform. and load (ETL) pipelines customized for your business.
+    - image: /img/graph-bar.png
+      heading: Machine-Learning Data Analysis
       text: >
-        No one knows everything. We all need training to keep up. Wandering Leaf
-        Studios can help keep your team up-to-date with the latest technology
-        and trends.
+        Do you need some machine learning predictive models built for product recommendations or image recognition? We can help you with that.
 ---
 

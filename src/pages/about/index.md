@@ -4,7 +4,7 @@ path: /about
 title: About
 ---
 
-Wandering Leaf Studios is a software development agency which specializes in responsive, multi-device web application development.
+Wandering Leaf Studios is a consulting company that specializes in analytics and cloud data pipelines.
 
 ## Frequently Asked Questions
 
