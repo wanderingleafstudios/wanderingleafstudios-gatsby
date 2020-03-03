@@ -1,6 +1,6 @@
-import React from "react"
-import PropTypes from "prop-types"
-import PreviewCompatibleImage from "./PreviewCompatibleImage"
+import React from 'react'
+import PropTypes from 'prop-types'
+import PreviewCompatibleImage from './PreviewCompatibleImage'
 
 const ServiceGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
@@ -11,8 +11,9 @@ const ServiceGrid = ({ gridItems }) => (
           <div className="has-text-centered">
             <div
               style={{
-                width: "240px",
-                display: "inline-block",
+                width: '240px',
+                padding: '2rem',
+                display: 'inline-block',
               }}
             >
               <PreviewCompatibleImage imageInfo={item} />
