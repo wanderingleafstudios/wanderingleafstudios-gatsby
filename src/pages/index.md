@@ -1,16 +1,17 @@
 ---
 templateKey: index-page
 image: /img/dennis-kummer-52geprmkp7m-unsplash.jpg
-heading: Are you tech stuck?
-subheading: Productivity tools to help you get back to your passion.
+heading: Do you know where your data is?
+subheading: Wrangle your data and ensure your pipelines are working for you.
 mainpitch:
   title: Why Wandering Leaf Studios?
   description: >
-    You need more time. Tech stuff stresses you out. You need someone to take
-    care of it so you don’t have to. That's where we come in.
-description: >
+    You need professionals who cares about and understands your business. Let us
+    help you move towards your goals with a data-driven approach and workflow.
+description: >-
   Wandering Leaf Studios provides courses, services, and tools for entrepreneurs
-  and startups who don't need a full-time web development team or agency.
+  and startups who don't need a full-time web analytics or data engineering
+  team..
 main:
   heading: What we offer
   description: >
